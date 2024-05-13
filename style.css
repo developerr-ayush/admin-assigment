@@ -28,7 +28,10 @@
   text-transform: uppercase;
   display: flex;
 }
-
+.body-wrap {
+  flex: 1;
+  overflow: hidden;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: transparent;
